@@ -1,0 +1,19 @@
+{
+    "name": "humanik/custom-css-command",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/humanik/custom-css-command",
+    "require": {
+        "wp-cli/wp-cli": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Humanik\\WP_CLI\\": "src"
+        },
+        "files": [
+            "./custom-css-command.php"
+        ]
+    },
+    "require-dev": {
+        "php-stubs/wordpress-stubs": "^5.7"
+    }
+}
